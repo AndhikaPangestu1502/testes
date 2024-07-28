@@ -1,0 +1,69 @@
+body {
+    background-image: url(../image/jin\ sakai.jpg);
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-background {
+    background-color: black;
+    width: 100%;
+    bottom: -7px;
+    position: relative;
+}
+.navbar-conten {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    position: relative;
+}
+.navbar-conten li {
+    margin: 0 15px;
+}
+.navbar-conten a {
+    color: white;
+    text-decoration-color: green;
+    position: relative;
+}
+img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-left: 0px;
+    margin-top: 0px;
+    transition: all 600ms ease-in-out;
+    object-fit: cover;
+}
+.card-image:hover img {
+    transform: scale(1.10);
+}   
+.card-image {
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 50px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    position: relative;
+}
+
+.captionimage {
+    opacity: 0;
+    color: white;
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 100%;
+    height: 100%
+}
+.card-image:hover .captionimage {
+    opacity: 1;
+}
+.galery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,74 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-image: url(../image/memek.gif);
+    background-size: cover;
+    
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-background {
+    background-color: rgb(24, 24, 24);
+    border: 2px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 100%;
+    bottom: -7px;
+    position: relative;
+}
+.navbar-conten {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    position: relative;
+}
+.navbar-conten li {
+    margin: 0 15px;
+}
+.navbar-conten a {
+    color: white;
+    text-decoration-color: green;
+    position: relative;
+}
+.navbarbg {
+     background-color: rgb(24, 24, 24);
+     height: 35px;
+}
+.navbarbg>i {
+    color: aquamarine;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5px;
+
+}
+.containerfoto {
+     width: 330px;
+     height: 560px;
+     margin-top: 40px;
+     margin-left: 21px;
+     
+    
+}
+.containerfoto > img {
+  width: 250px;
+  height: 250px;
+  border: 4px solid rgb(58, 58, 58);
+  border-radius: 100%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.containerfoto>p {
+    font-size: 15px;
+    color: white;
+    width: 320px;
+    padding-left: 15px;
+    padding-top: 40px;
+    
+}

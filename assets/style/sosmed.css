@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-background {
+    background-color: black;
+    width: 100%;
+    bottom: -7px;
+    position: relative;
+}
+.navbar-conten {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    position: relative;
+}
+.navbar-conten li {
+    margin: 0 15px;
+}
+.navbar-conten a {
+    color: white;
+    text-decoration-color: green;
+    position: relative;
+}
+.containersosmed {
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: url(../image/samurai.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.sosmedandhika {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sosmedandhika>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid blueviolet;
+}
+.sosmedandhika>p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    text-rendering: optimizeLegibility;
+}
+.sosmedparel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.sosmedparel>a {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius:30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px 10px;
+    padding: 10px;
+}
+.sosmedgale>i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    font-weight: bold;
+}
